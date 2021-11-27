@@ -23,10 +23,13 @@ One could change the CPU frequency either by using the _--cpu-freq_ command line
 
 3. Calculating the CPI using _congif.ini_ or _config.json_
 - IL1.miss_num = 0
+\
 `system.cpu_cluster.cpus.dtb.inst_misses             0                       # ITB inst misses`
 - DL1.miss_num = 147
+\
 `system.cpu_cluster.cpus.branchPred.indirectMisses          147                       # Number of indirect misses.` 
 - L2.miss_num = 474
+\
 `system.cpu_cluster.l2.overall_misses::total          474                       # number of overall misses`
 - Total_ins_num = 5831
 \
