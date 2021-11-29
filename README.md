@@ -14,6 +14,7 @@ Below are the answers to the first exercises, categorized according to the assig
 - Caches: L1 and shared L2 caches
 - Number of memory channels: 2
 - Memory size: 2GB
+\
 One could change the CPU frequency either by using the _--cpu-freq_ command line option or by modifying the _starter_se.py_ file, where the --cpu-freq default value is dictated.
 
 2. **_stats.txt_ basic output values:**
