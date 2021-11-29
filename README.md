@@ -64,13 +64,13 @@ For this part of the report, we are going to be using a dependency free version 
     1. CPU clock experiment execution times in seconds:
     | CPU type        | Frequency[GHz] | Time[sec]|
     |-----------------|----------------|----------|
-    | MinorCPU        | 1.5            |          |
-    |                 | 2.0            |          |
-    |                 | 3.0            |          |
+    | MinorCPU        | 1.5            | 1        |
+    | MinorCPU        | 2.0            | 1        |
+    | MinorCPU        | 3.0            | 1        |
     |-----------------|----------------|----------|
-    | TimingSimpleCPU | 1.5            |          |
-    |                 | 2.0            |          |
-    |                 | 3.0            |          |
+    | TimingSimpleCPU | 1.5            | 1        |
+    | TimingSimpleCPU | 2.0            | 1        |
+    | TimingSimpleCPU | 3.0            | 1        |
 
 
 
