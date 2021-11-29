@@ -61,16 +61,21 @@ For this part of the report, we are going to be using a dependency free version 
     2. TimingSimpleCPU host time = 0.17 sec
 
 - b. 
-    1. CPU clock experiment execution times in seconds:
-    |  CPU type        | Frequency[GHz] | Time[sec] |
-    | -----------------|----------------|---------- |
-    |  MinorCPU        | 1.5            | 1         |
-    |  MinorCPU        | 2.0            | 1         |
-    |  MinorCPU        | 3.0            | 1         |
-    | -----------------|----------------|---------- |
-    |  TimingSimpleCPU | 1.5            | 1         |
-    |  TimingSimpleCPU | 2.0            | 1         |
-    |  TimingSimpleCPU | 3.0            | 1         |
+  1. CPU clock experiment execution times in seconds:
+
+    |  Frequency[GHz]  |  MinorCPU  | TimingSimpleCPU   | 
+    | ---------------- | ---------- | ----------------- | 
+    |  1.5             |  0.66      | 0.25              | 
+    |  2.0             |  0.62      | 0.17              | 
+    |  3.0             |  0.61      | 0.20              |  
+
+  2. Memory type experiment execution times in seconds:
+
+    |  Memory Type     |  MinorCPU  | TimingSimpleCPU   | 
+    | ---------------- | ---------- | ----------------- | 
+    |  SimpleMemory    |  0.63      | 0.18              | 
+    |  LPDDR2 1x32     |  0.72      | 0.17              | 
+    |  DDR4 8x8        |  0.63      | 0.17              |
 
 
 
