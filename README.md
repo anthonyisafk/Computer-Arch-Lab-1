@@ -6,7 +6,7 @@ Below are the answers to the first exercises, categorized according to the assig
 
 1. **_What are the most important parameters found in the starter_se.py configuration file?_**
 \
--CPU type: The given types are **atomic** and **minorCPU**, with the system defaulting to atomic, while the command given in the assignment description sets it to minor.
+- CPU type: The given types are **atomic** and **minorCPU**, with the system defaulting to atomic, while the command given in the assignment description sets it to minor.
 - Frequency: 1GHz
 - Number of cores: 1
 - Memory type: DDR3 1600
