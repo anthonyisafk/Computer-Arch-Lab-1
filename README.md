@@ -62,7 +62,7 @@ For this part of the report, we are going to be using a dependency free version 
 
 - b. 
   1. CPU clock experiment execution times in seconds:
-
+    \
     |  Frequency[GHz]  |  MinorCPU  | TimingSimpleCPU   | 
     | ---------------- | ---------- | ----------------- | 
     |  1.5             |  0.66      | 0.25              | 
@@ -70,19 +70,14 @@ For this part of the report, we are going to be using a dependency free version 
     |  3.0             |  0.61      | 0.20              |  
 
   2. Memory type experiment execution times in seconds:
-
+    \
     |  Memory Type     |  MinorCPU  | TimingSimpleCPU   | 
     | ---------------- | ---------- | ----------------- | 
     |  SimpleMemory    |  0.63      | 0.18              | 
     |  LPDDR2 1x32     |  0.72      | 0.17              | 
     |  DDR4 8x8        |  0.63      | 0.17              |
-
-
-
-
-
-
-
+  \ 
 
 ## Antonios Antoniou - 9482
+## Dimitrios Xylogiannis - 
 ## Electrical and Computer Engineering - AUTh
