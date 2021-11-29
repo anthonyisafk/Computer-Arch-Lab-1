@@ -55,8 +55,23 @@ The simulator provides the user with various CPU models, with two in-order categ
 ---
 
 5. **_Conducting experiments with various CPU types, clocks and memory types_**
-For this part of the report, we are going to be using a dependency free version of the sequential algorithm of the 1st assignment of the _Parallel and Distributed Systems_ course, which you can find [here](https://anthonyisafk/Parallel-Distributed-Systems-part1)
+For this part of the report, we are going to be using a dependency free version of the sequential algorithm of the 1st assignment of the _Parallel and Distributed Systems_ course, which you can find [here](https://github.com/anthonyisafk/Parallel-Distributed-Systems-part1)
 - a. 
+    1. MinorCPU host time = 0.83 sec
+    2. TimingSimpleCPU host time = 0.17 sec
+
+- b. 
+    1. CPU clock experiment execution times in seconds:
+    | CPU type        | Frequency[GHz] | Time[sec]|
+    |-----------------|----------------|----------|
+    | MinorCPU        | 1.5            |          |
+    |                 | 2.0            |          |
+    |                 | 3.0            |          |
+    |-----------------|----------------|----------|
+    | TimingSimpleCPU | 1.5            |          |
+    |                 | 2.0            |          |
+    |                 | 3.0            |          |
+
 
 
 
