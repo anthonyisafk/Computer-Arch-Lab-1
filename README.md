@@ -5,7 +5,7 @@ This is part of the 1st lab of the **Computer Architecture course at the Aristot
 Below are the answers to the first exercises, categorized according to the assignment description:
 
 1. **_What are the most important parameters found in the starter_se.py configuration file?_**
-\
+
 - CPU type: The given types are **atomic** and **minorCPU**, with the system defaulting to atomic, while the command given in the assignment description sets it to minor.
 - Frequency: 1GHz
 - Number of cores: 1
