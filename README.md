@@ -78,5 +78,5 @@ For this part of the report, we are going to be using a dependency free version 
     |  DDR4 8x8        |  0.63      | 0.17              |
 
 ## Antonios Antoniou - 9482
-## Dimitrios Xylogiannis - 
+## Dimitrios Xylogiannis - 9672
 ## Electrical and Computer Engineering - AUTh
