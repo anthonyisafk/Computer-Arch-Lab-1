@@ -25,19 +25,19 @@ One could change the CPU frequency either by using the _--cpu-freq_ command line
 
 3. **Calculating the CPI using _congif.ini_ or _config.json_**
 - IL1.miss_num = 327
-- \
+\
 `system.cpu_cluster.cpus.icache.overall_misses::total          327                       # number of overall misses`
 
 - DL1.miss_num = 177
-- \
+\
 `system.cpu_cluster.cpus.dcache.overall_misses::total          177                       # number of overall misses` 
 
 - L2.miss_num = 474
-- \
+\
 `system.cpu_cluster.l2.overall_misses::total          474                       # number of overall misses`
 
 - Total_ins_num = 5027
-- \
+\
 `sim_insts                                        5027                       # Number of instructions simulated`
 
 Which gives us a total of **CPI = ~5,31609** according to the given formula.
