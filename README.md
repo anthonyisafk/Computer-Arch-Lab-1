@@ -25,15 +25,19 @@ One could change the CPU frequency either by using the _--cpu-freq_ command line
 
 3. **Calculating the CPI using _congif.ini_ or _config.json_**
 - IL1.miss_num = 327
+- \
 `system.cpu_cluster.cpus.icache.overall_misses::total          327                       # number of overall misses`
 
 - DL1.miss_num = 177
+- \
 `system.cpu_cluster.cpus.dcache.overall_misses::total          177                       # number of overall misses` 
 
 - L2.miss_num = 474
+- \
 `system.cpu_cluster.l2.overall_misses::total          474                       # number of overall misses`
 
 - Total_ins_num = 5027
+- \
 `sim_insts                                        5027                       # Number of instructions simulated`
 
 Which gives us a total of **CPI = ~5,31609** according to the given formula.
@@ -82,7 +86,9 @@ For this part of the report, we are going to be using a dependency free version 
 ## Thoughts on the first assignment
 This first part of the lab assignments was used by our team as a guide to the **gem5** emulator, but also as a way to work with a **Virtual Machine** (VM) more efficiently. Moreover, we had the chance to integrate **_git_** and **_GitHub_** into our workflows, since most of the processing of the data and writing was done independently of the VM.
 \
+\
 Generally speaking, the requirements of the assignment were quite simple and adequate to gain knowledge to build upon for the next stages of the course and our interaction with gem5 and emulators in general, provided that we spend enough time to explore the ecosystem on our own.
+\
 \
 When it comes to the assistance provided, it was very helpful to us that a ready-to-use VM was given, primarily due to the short time period we had to prepare for being present in the first presentation. The instructions of the assignment were clear and helpful, with the few exceptions of some typos we came accross, but were a nice little challenge to overcome, using the documentation and the command line manuals gem5 has to offer. Hence, troubleshooting was pretty brief and everything worked out as it should.
 
